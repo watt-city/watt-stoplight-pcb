@@ -1,0 +1,312 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "b4a4f794-1678-4879-8515-a84d8e78c2b5")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 137.16 110.49) (xy 137.16 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03da0ecc-06c1-4f1b-927e-4329a1875ccb")
+	)
+	(bus
+		(pts
+			(xy 115.57 129.54) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22cbf2e6-c01b-46fa-b1aa-dac5f66962a6")
+	)
+	(wire
+		(pts
+			(xy 137.16 74.93) (xy 142.24 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e58420-5f4e-441a-86ed-47e0384bcc96")
+	)
+	(bus
+		(pts
+			(xy 115.57 93.98) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c3b0d32-3fa6-474e-9026-a319cb9ba0e1")
+	)
+	(wire
+		(pts
+			(xy 143.51 110.49) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9922179-a02b-4f48-ba6a-b730f88ee44e")
+	)
+	(wire
+		(pts
+			(xy 90.17 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6dedfb1-388b-4827-af49-7d162ea77966")
+	)
+	(bus
+		(pts
+			(xy 115.57 129.54) (xy 143.51 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85a7115-6059-48cf-8da7-1562bd5aa490")
+	)
+	(wire
+		(pts
+			(xy 127 57.15) (xy 142.24 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3efec61-dc4c-426c-81b5-e939d73a3982")
+	)
+	(wire
+		(pts
+			(xy 127 76.2) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf4c251-f84d-49b4-af44-7e5893b2cad3")
+	)
+	(label "{USB_D+, USB_D-}"
+		(at 120.65 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "484115e5-2b3f-42ce-abb0-90f7f23396b1")
+	)
+	(sheet
+		(at 143.51 101.6)
+		(size 60.96 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3dd86ff8-e3bb-420d-8a24-6450469b82c4")
+		(property "Sheetname" "mcu"
+			(at 143.51 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 143.51 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 143.51 110.49 180)
+			(uuid "6ad3ff26-9907-47b9-b372-6ded28cf2b96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB" input
+			(at 143.51 129.54 180)
+			(uuid "1381d2c7-52f9-4dcf-b754-feef1ce13097")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "watt_city_stoplight_pcb"
+				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 50.8)
+		(size 48.26 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a4ea3f1f-e8c7-4a2f-a127-6e9fb5bd98fc")
+		(property "Sheetname" "power"
+			(at 142.24 50.0884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 142.24 83.1346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 142.24 74.93 180)
+			(uuid "c16a1cb2-4f93-412b-a82c-bd55f6a02059")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V_USB" input
+			(at 142.24 57.15 180)
+			(uuid "79efa235-de19-4f30-b7e0-5e75ce188868")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "watt_city_stoplight_pcb"
+				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 59.69)
+		(size 53.34 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e466996b-5951-4770-9051-231f99bdaa49")
+		(property "Sheetname" "usb"
+			(at 36.83 58.9784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 36.83 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+5V_USB" output
+			(at 90.17 76.2 0)
+			(uuid "c5619509-9737-4dff-b0b0-8456b26eb932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB" input
+			(at 90.17 93.98 0)
+			(uuid "e04b76ba-9a05-47ec-88f5-555a94529eab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "watt_city_stoplight_pcb"
+				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
