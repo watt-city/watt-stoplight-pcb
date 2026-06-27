@@ -60,7 +60,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|124830000|110940000|b60482c3-01bc-491a-9464-fc944e523c7a|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -646,7 +651,7 @@
         "uuid": "b4a4f794-1678-4879-8515-a84d8e78c2b5"
       }
     ],
-    "used_designators": "BT1,BT401,D1-5,D201,D301-303,D401-402,D501,#PWR1,#PWR201-209,#PWR301-308,#PWR401-405,#PWR501-502,R1-3,R201-202,R301-305,R501-502,J201,J501,U1,U201,U301,U401,U501,C201-203,C301-303,C401-402,SW1-2,SW201-202,SW301-302,SW401",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
