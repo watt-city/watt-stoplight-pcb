@@ -3953,7 +3953,7 @@
 	)
 	(text "reset"
 		(exclude_from_sim no)
-		(at 33.274 84.582 0)
+		(at 62.484 84.582 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3998,7 +3998,7 @@
 		(uuid "00affa78-0aa2-4b8a-8855-cced5f5e9afd")
 	)
 	(junction
-		(at 40.64 73.66)
+		(at 69.85 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ebc694a-d3e6-4775-b1a1-0ba351139779")
@@ -4028,7 +4028,7 @@
 		(uuid "5ef4e86b-7b9f-4b7d-800d-bd4cb623326c")
 	)
 	(junction
-		(at 48.26 73.66)
+		(at 77.47 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "670460d8-2880-41ff-ad92-6dafef3ceecb")
@@ -4040,7 +4040,7 @@
 		(uuid "7c0c1bbd-fae4-4b6f-b737-e8bedfe19c44")
 	)
 	(junction
-		(at 44.45 85.09)
+		(at 73.66 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92098a54-b285-438b-b684-66c0a6e2a224")
@@ -4325,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 85.09) (xy 48.26 82.55)
+			(xy 77.47 85.09) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4335,7 +4335,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 73.66) (xy 26.67 73.66)
+			(xy 52.07 73.66) (xy 55.88 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4345,7 +4345,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 73.66) (xy 40.64 73.66)
+			(xy 63.5 73.66) (xy 69.85 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4375,7 +4375,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 85.09) (xy 44.45 85.09)
+			(xy 69.85 85.09) (xy 73.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4415,7 +4415,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 73.66) (xy 40.64 74.93)
+			(xy 69.85 73.66) (xy 69.85 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4465,7 +4465,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 48.26 85.09)
+			(xy 73.66 85.09) (xy 77.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4515,7 +4515,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 73.66) (xy 105.41 73.66)
+			(xy 77.47 73.66) (xy 105.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4565,7 +4565,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 85.09) (xy 44.45 87.63)
+			(xy 73.66 85.09) (xy 73.66 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4595,7 +4595,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 73.66) (xy 48.26 73.66)
+			(xy 69.85 73.66) (xy 77.47 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4725,7 +4725,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 73.66) (xy 48.26 74.93)
+			(xy 77.47 73.66) (xy 77.47 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4828,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape input)
-		(at 22.86 73.66 180)
+		(at 52.07 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6756,7 +6756,7 @@
 	)
 	(symbol
 		(lib_id "bfr_actuators:Generic_Pushbutton")
-		(at 40.64 80.01 90)
+		(at 69.85 80.01 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6766,7 +6766,7 @@
 		(dnp no)
 		(uuid "59897977-3959-47d9-8f1e-33717d77fa41")
 		(property "Reference" "SW301"
-			(at 30.226 79.502 90)
+			(at 59.436 79.502 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6777,7 +6777,7 @@
 			)
 		)
 		(property "Value" "Reset"
-			(at 30.226 82.042 90)
+			(at 59.436 82.042 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6788,7 +6788,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
-			(at 35.56 80.01 0)
+			(at 64.77 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6799,7 +6799,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
-			(at 35.56 80.01 0)
+			(at 64.77 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +6810,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6821,7 +6821,7 @@
 			)
 		)
 		(property "Manufacturer P/N" "TS-1088-AR02016 "
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6832,7 @@
 			)
 		)
 		(property "Manufacturer" "XUNPU"
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6843,7 +6843,7 @@
 			)
 		)
 		(property "Digikey P/N" "SW1021TR-ND"
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +6854,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6865,7 +6865,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6876,7 +6876,7 @@
 			)
 		)
 		(property "Created By" "Tony"
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6887,7 +6887,7 @@
 			)
 		)
 		(property "LCSC P/N" "C720477"
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6898,7 +6898,7 @@
 			)
 		)
 		(property "Pretty Name" ""
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6909,7 +6909,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 40.64 80.01 0)
+			(at 69.85 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7462,7 +7462,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 87.63 0)
+		(at 73.66 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7473,7 +7473,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4ca1411-b5e8-4337-b9aa-b03bb114f60b")
 		(property "Reference" "#PWR0301"
-			(at 44.45 93.98 0)
+			(at 73.66 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +7484,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 92.71 0)
+			(at 73.66 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7494,7 +7494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 87.63 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,7 +7505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 87.63 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,7 +7516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 87.63 0)
+			(at 73.66 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7998,7 +7998,7 @@
 	)
 	(symbol
 		(lib_id "bfr_resistors:RMCF0603FT10K0")
-		(at 30.48 73.66 0)
+		(at 59.69 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8008,7 +8008,7 @@
 		(dnp no)
 		(uuid "d4cab0e2-9e41-4aa2-a1b2-8f110b0f6afe")
 		(property "Reference" "R301"
-			(at 31.496 71.374 0)
+			(at 60.706 71.374 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8018,7 +8018,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 31.496 68.834 0)
+			(at 60.706 68.834 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8028,7 +8028,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 30.48 76.2 0)
+			(at 59.69 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8039,7 +8039,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 30.48 77.47 0)
+			(at 59.69 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,7 +8050,7 @@
 			)
 		)
 		(property "Description" "10kΩ 0603 JLCPCB Basic Resistor"
-			(at 30.48 73.66 0)
+			(at 59.69 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8061,7 +8061,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 30.48 78.74 0)
+			(at 59.69 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8072,7 +8072,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 30.48 80.01 0)
+			(at 59.69 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8083,7 +8083,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_resistors/RMCF0603FT10K0.lib"
-			(at 30.48 81.28 0)
+			(at 59.69 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8094,7 +8094,7 @@
 			)
 		)
 		(property "Sim.Name" "RMCF0603FT10K0"
-			(at 30.48 82.55 0)
+			(at 59.69 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8105,7 +8105,7 @@
 			)
 		)
 		(property "Pretty Name" "10kΩ 0603 Resistor"
-			(at 30.48 83.82 0)
+			(at 59.69 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8116,7 +8116,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 30.48 85.09 0)
+			(at 59.69 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8127,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 30.48 86.36 0)
+			(at 59.69 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8138,7 +8138,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 30.48 87.63 0)
+			(at 59.69 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8149,7 +8149,7 @@
 			)
 		)
 		(property "Digikey P/N" "RMCF0603FT10K0CT-ND"
-			(at 30.48 88.9 0)
+			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8160,7 +8160,7 @@
 			)
 		)
 		(property "Mouser P/N" "708-RMCF0603FT10K0"
-			(at 30.48 88.9 0)
+			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8171,7 +8171,7 @@
 			)
 		)
 		(property "LCSC P/N" "C25804"
-			(at 30.48 88.9 0)
+			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8182,7 +8182,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 30.48 88.9 0)
+			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8193,7 +8193,7 @@
 			)
 		)
 		(property "Created by" "resistor_generator.py script using e24_resistor_bible_spec.txt"
-			(at 30.48 88.9 0)
+			(at 59.69 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8298,7 +8298,7 @@
 	)
 	(symbol
 		(lib_id "bfr_capacitors:CL10A105KB8NNNC")
-		(at 48.26 78.74 0)
+		(at 77.47 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8308,7 +8308,7 @@
 		(dnp no)
 		(uuid "e5b23d44-ae1c-420a-ac17-4251c0ccfeee")
 		(property "Reference" "C301"
-			(at 51.562 77.724 0)
+			(at 80.772 77.724 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8320,7 +8320,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 51.562 80.264 0)
+			(at 80.772 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8331,7 +8331,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 48.26 81.28 0)
+			(at 77.47 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8342,7 +8342,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 82.55 0)
+			(at 77.47 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8353,7 +8353,7 @@
 			)
 		)
 		(property "Description" "1uF±10% X5R 50V JLCPCB Basic 0603 Capacitor"
-			(at 48.26 78.74 0)
+			(at 77.47 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8364,7 +8364,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 48.26 83.82 0)
+			(at 77.47 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8375,7 +8375,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=P1 2=P2"
-			(at 48.26 85.09 0)
+			(at 77.47 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8386,7 +8386,7 @@
 			)
 		)
 		(property "Sim.Library" "${BFRUH_DIR}/Electronics/spice_models/bfr_capacitors/CL10A105KB8NNNC.lib"
-			(at 48.26 86.36 0)
+			(at 77.47 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,7 +8397,7 @@
 			)
 		)
 		(property "Sim.Name" "CL10A105KB8NNNC"
-			(at 48.26 87.63 0)
+			(at 77.47 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8408,7 +8408,7 @@
 			)
 		)
 		(property "Pretty Name" "1uF X5R 50V 0603 Capacitor"
-			(at 48.26 88.9 0)
+			(at 77.47 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8419,7 +8419,7 @@
 			)
 		)
 		(property "Qty/Unit" ""
-			(at 48.26 90.17 0)
+			(at 77.47 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8430,7 +8430,7 @@
 			)
 		)
 		(property "Cost/Unit" ""
-			(at 48.26 91.44 0)
+			(at 77.47 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8441,7 +8441,7 @@
 			)
 		)
 		(property "Order From" "LCSC"
-			(at 48.26 92.71 0)
+			(at 77.47 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8452,7 +8452,7 @@
 			)
 		)
 		(property "Digikey P/N" ""
-			(at 48.26 93.98 0)
+			(at 77.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,7 +8463,7 @@
 			)
 		)
 		(property "Mouser P/N" ""
-			(at 48.26 93.98 0)
+			(at 77.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8474,7 +8474,7 @@
 			)
 		)
 		(property "LCSC P/N" "C15849"
-			(at 48.26 93.98 0)
+			(at 77.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8485,7 +8485,7 @@
 			)
 		)
 		(property "JLCPCB Basic Part" "Yes"
-			(at 48.26 93.98 0)
+			(at 77.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8496,7 +8496,7 @@
 			)
 		)
 		(property "Created by" "capacitor_generator.py script using jlcbasic_additional_capacitor_spec.txt"
-			(at 48.26 93.98 0)
+			(at 77.47 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
