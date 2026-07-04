@@ -1035,52 +1035,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "bfr_actuators:Generic_Pushbutton"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "TS-1088-AR02016:TS-1088-AR02016"
 			(pin_names
 				(offset 1.016)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW401"
-				(at 0 7.62 0)
+			(property "Reference" "S"
+				(at -2.54 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "SW"
-				(at 0 5.08 0)
+			(property "Value" "TS-1088-AR02016"
+				(at -2.54 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
-				(at 0 5.08 0)
+			(property "Footprint" "TS-1088-AR02016:SW_TS-1088-AR02016"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1088,9 +1075,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1101,7 +1089,7 @@
 					)
 				)
 			)
-			(property "Manufacturer P/N" "TS-1088-AR02016 "
+			(property "Description" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Vertical welding SPST SMD Tactile Switches ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1110,9 +1098,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Manufacturer" "XUNPU"
+			(property "MF" "Xunpu"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1121,9 +1110,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Digikey P/N" "SW1021TR-ND"
+			(property "MAXIMUM_PACKAGE_HEIGHT" "2.0 mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1132,9 +1122,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Mouser P/N" ""
+			(property "Package" "Package"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1143,9 +1134,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Order From" "LCSC"
+			(property "Price" "None"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1154,9 +1146,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Created By" "Tony"
+			(property "Check_prices" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=eda"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1165,9 +1158,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "LCSC P/N" "C720477"
+			(property "STANDARD" "Manufacturer Recommendations"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1176,9 +1170,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "Pretty Name" ""
+			(property "PARTREV" "N/A"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1187,9 +1182,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "JLCPCB Basic Part" "Yes"
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=snap"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1198,9 +1194,10 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "MP" "TS-1088-AR02016"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1209,14 +1206,40 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 				)
 			)
-			(symbol "Generic_Pushbutton_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "Availability" "Not in stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Xunpu"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "TS-1088-AR02016_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1225,10 +1248,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -2.54 0) (xy 2.794 2.1336)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1236,10 +1259,10 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
-					(radius 0.508)
+					(center 2.54 0)
+					(radius 0.3302)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1248,10 +1271,10 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 5.08 0) (xy 2.921 0)
 					)
 					(stroke
-						(width 0)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -1259,37 +1282,37 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -3983,7 +4006,7 @@
 	)
 	(text "stoplight"
 		(exclude_from_sim no)
-		(at 160.782 110.744 0)
+		(at 156.21 114.046 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4010,16 +4033,16 @@
 		(uuid "2e275172-a1c4-43b5-aaa5-4ea4fa8fbbad")
 	)
 	(junction
-		(at 160.02 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f5763e9-4cdd-416e-bb48-95f405260a28")
-	)
-	(junction
 		(at 146.05 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51e6427f-b724-4bc9-8b45-9aec029a3c66")
+	)
+	(junction
+		(at 163.83 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5eea52fc-db15-491d-98c7-bc207ce63dd2")
 	)
 	(junction
 		(at 146.05 76.2)
@@ -4040,16 +4063,22 @@
 		(uuid "7c0c1bbd-fae4-4b6f-b737-e8bedfe19c44")
 	)
 	(junction
-		(at 73.66 85.09)
+		(at 73.66 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "92098a54-b285-438b-b684-66c0a6e2a224")
+		(uuid "92ee8c39-ec41-4380-86cb-90b130334058")
 	)
 	(junction
 		(at 146.05 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1c7ab32-dcbb-418b-a6ef-75c6ea7a9c0a")
+	)
+	(junction
+		(at 157.48 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7182058-7e98-4ae1-9b49-3eee54247b78")
 	)
 	(junction
 		(at 146.05 68.58)
@@ -4068,12 +4097,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cff10b6d-bce1-48d2-871c-492fed0e6ad2")
-	)
-	(junction
-		(at 157.48 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3494d0b-acb2-433a-9258-abf25bb143c9")
 	)
 	(junction
 		(at 146.05 81.28)
@@ -4245,13 +4268,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 124.46) (xy 163.83 124.46)
+			(xy 146.05 124.46) (xy 157.48 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0804d597-4f8b-4a4c-878e-fef533a821ef")
+	)
+	(wire
+		(pts
+			(xy 73.66 91.44) (xy 73.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b894c00-ce1e-448d-b699-9fc6dd9c3f86")
 	)
 	(wire
 		(pts
@@ -4325,7 +4358,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 85.09) (xy 77.47 82.55)
+			(xy 77.47 90.17) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4355,7 +4388,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 120.65) (xy 160.02 120.65)
+			(xy 157.48 120.65) (xy 163.83 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4375,23 +4408,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 85.09) (xy 73.66 85.09)
+			(xy 69.85 90.17) (xy 73.66 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "419dbb13-64c9-4a9b-9121-3c6a7dc3431a")
-	)
-	(wire
-		(pts
-			(xy 160.02 111.76) (xy 162.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "442c6b91-64fe-41fe-9fe6-b40616848c00")
 	)
 	(wire
 		(pts
@@ -4465,7 +4488,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 77.47 85.09)
+			(xy 73.66 90.17) (xy 77.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4535,16 +4558,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 124.46) (xy 157.48 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bdd6541-0af7-44db-baa4-852ec27e6b64")
-	)
-	(wire
-		(pts
 			(xy 146.05 68.58) (xy 146.05 71.12)
 		)
 		(stroke
@@ -4565,16 +4578,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 85.09) (xy 73.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9694f3a7-d627-4bfe-a83a-7a4b549e63f8")
-	)
-	(wire
-		(pts
 			(xy 146.05 71.12) (xy 146.05 73.66)
 		)
 		(stroke
@@ -4585,7 +4588,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 120.65) (xy 160.02 111.76)
+			(xy 163.83 120.65) (xy 163.83 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4612,6 +4615,16 @@
 			(type default)
 		)
 		(uuid "a6c5250c-9c8f-4d25-b3e7-b2fc7678caf7")
+	)
+	(wire
+		(pts
+			(xy 157.48 124.46) (xy 163.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aba33f20-3c8a-4314-ac86-dec52c50b460")
 	)
 	(wire
 		(pts
@@ -4685,13 +4698,13 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 111.76) (xy 160.02 111.76)
+			(xy 163.83 111.76) (xy 166.37 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7162d8e-861b-4d97-b518-2777e70904ca")
+		(uuid "d1d8b23a-4f78-45db-8656-ff64a1ff073c")
 	)
 	(wire
 		(pts
@@ -5006,7 +5019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15dab78e-2cf6-4015-a4b9-eec5fd70c871")
-		(property "Reference" "#PWR0305"
+		(property "Reference" "#PWR0301"
 			(at 69.85 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5066,7 +5079,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0305")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26058ade-3918-43d1-8e04-5a463bf5af13")
-		(property "Reference" "R303"
+		(property "Reference" "R304"
 			(at 182.88 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5289,7 +5302,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R303")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -5306,7 +5319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26d3c4d7-7930-4293-b444-2a53572c1dc2")
-		(property "Reference" "R305"
+		(property "Reference" "R302"
 			(at 168.656 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5511,7 +5524,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R305")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -5529,7 +5542,7 @@
 		(dnp no)
 		(uuid "2900dac6-dee9-438e-88ff-9e45f4c191fe")
 		(property "Reference" "C304"
-			(at 153.67 119.126 90)
+			(at 153.67 116.332 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5539,7 +5552,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 153.67 121.666 90)
+			(at 153.924 117.602 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5974,7 +5987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d205a85-bfca-4b74-b66e-425711fda7c1")
-		(property "Reference" "R302"
+		(property "Reference" "R305"
 			(at 189.23 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +6192,223 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R302")
+					(reference "R305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TS-1088-AR02016:TS-1088-AR02016")
+		(at 157.48 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45cf929f-302c-4620-80d3-857eba5e5757")
+		(property "Reference" "S303"
+			(at 158.75 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 158.75 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TS-1088-AR02016:SW_TS-1088-AR02016"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Vertical welding SPST SMD Tactile Switches ROHS"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Xunpu"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.0 mm"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=eda"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=snap"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TS-1088-AR02016"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Xunpu"
+			(at 157.48 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "3c6cd0ad-7ec8-456f-8a41-bfd0e2f28386")
+		)
+		(pin "1"
+			(uuid "b25cef95-201c-459f-8f44-4deb19d995df")
+		)
+		(instances
+			(project "watt_city_stoplight_pcb"
+				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
+					(reference "S303")
 					(unit 1)
 				)
 			)
@@ -6197,7 +6426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471fa6ad-6208-4308-9391-b9e45380e6ad")
-		(property "Reference" "#PWR0304"
+		(property "Reference" "#PWR0307"
 			(at 209.55 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +6486,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0304")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -6432,7 +6661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4aedc25b-20b1-429a-a5dc-010b0fcc70a2")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0304"
 			(at 154.94 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -6492,185 +6721,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_actuators:Generic_Pushbutton")
-		(at 157.48 129.54 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4c14eca2-8fa6-468c-8d97-6807bc3d9a70")
-		(property "Reference" "SW302"
-			(at 160.02 129.794 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Boot"
-			(at 162.56 129.794 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer P/N" "TS-1088-AR02016 "
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey P/N" "SW1021TR-ND"
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Created By" "Tony"
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C720477"
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pretty Name" ""
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 157.48 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a52399a9-eee3-4ef8-990f-4e8f2332179d")
-		)
-		(pin "1"
-			(uuid "0bfd091f-1065-4bfe-94be-4cb9f31509c7")
-		)
-		(instances
-			(project "watt_city_stoplight_pcb"
-				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "SW302")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -6678,7 +6729,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 111.76 0)
+		(at 166.37 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6688,8 +6739,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50e435f7-3eab-4d56-95eb-5c059f2c209f")
-		(property "Reference" "#PWR0309"
-			(at 162.56 118.11 0)
+		(property "Reference" "#PWR0306"
+			(at 166.37 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6700,7 +6751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 116.84 0)
+			(at 166.37 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6710,7 +6761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 111.76 0)
+			(at 166.37 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6721,7 +6772,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 111.76 0)
+			(at 166.37 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6732,7 +6783,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 111.76 0)
+			(at 166.37 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6748,15 +6799,15 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0309")
+					(reference "#PWR0306")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "bfr_actuators:Generic_Pushbutton")
-		(at 69.85 80.01 90)
+		(lib_id "TS-1088-AR02016:TS-1088-AR02016")
+		(at 69.85 82.55 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6764,9 +6815,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "59897977-3959-47d9-8f1e-33717d77fa41")
-		(property "Reference" "SW301"
-			(at 59.436 79.502 90)
+		(fields_autoplaced yes)
+		(uuid "616373ac-a308-453f-8196-f40a68aa81d4")
+		(property "Reference" "S301"
+			(at 71.12 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6776,8 +6828,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Reset"
-			(at 59.436 82.042 90)
+		(property "Value" "TS-1088-AR02016"
+			(at 71.12 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6787,8 +6839,20 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
-			(at 64.77 80.01 0)
+		(property "Footprint" "TS-1088-AR02016:SW_TS-1088-AR02016"
+			(at 69.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,8 +6862,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
-			(at 64.77 80.01 0)
+		(property "Description" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Vertical welding SPST SMD Tactile Switches ROHS"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6807,10 +6871,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 69.85 80.01 0)
+		(property "MF" "Xunpu"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6818,10 +6883,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Manufacturer P/N" "TS-1088-AR02016 "
-			(at 69.85 80.01 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.0 mm"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6829,10 +6895,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Manufacturer" "XUNPU"
-			(at 69.85 80.01 0)
+		(property "Package" "Package"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6840,10 +6907,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Digikey P/N" "SW1021TR-ND"
-			(at 69.85 80.01 0)
+		(property "Price" "None"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,10 +6919,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Mouser P/N" ""
-			(at 69.85 80.01 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=eda"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6862,10 +6931,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Order From" "LCSC"
-			(at 69.85 80.01 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6873,10 +6943,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Created By" "Tony"
-			(at 69.85 80.01 0)
+		(property "PARTREV" "N/A"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6884,10 +6955,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "LCSC P/N" "C720477"
-			(at 69.85 80.01 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=snap"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6895,10 +6967,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Pretty Name" ""
-			(at 69.85 80.01 0)
+		(property "MP" "TS-1088-AR02016"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6906,10 +6979,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 69.85 80.01 0)
+		(property "Availability" "Not in stock"
+			(at 69.85 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6917,18 +6991,31 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Xunpu"
+			(at 69.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
 			)
 		)
 		(pin "2"
-			(uuid "cd2c6afa-ebe3-4766-8907-14b9d72e0b9a")
+			(uuid "d0fc48d9-5f53-418b-9d74-6eed4d2726fb")
 		)
 		(pin "1"
-			(uuid "1c5181e9-9ab1-47dd-93bc-e09084ee5c18")
+			(uuid "6f60ee6e-1e83-4e31-9014-3225e6a9956c")
 		)
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "SW301")
+					(reference "S301")
 					(unit 1)
 				)
 			)
@@ -6945,7 +7032,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "64726f65-3e17-4141-81f0-8b49cd9ebdd5")
-		(property "Reference" "C303"
+		(property "Reference" "C302"
 			(at 76.454 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7152,7 +7239,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "C303")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -7170,7 +7257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6eabff19-01d8-4f7d-bcda-c37f9b77de20")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR0309"
 			(at 214.63 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7230,7 +7317,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0302")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)
@@ -7247,7 +7334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "85a7fa81-452e-4b18-8728-d4c2609733d3")
-		(property "Reference" "C302"
+		(property "Reference" "C301"
 			(at 58.674 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7454,7 +7541,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "C302")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -7462,7 +7549,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 87.63 0)
+		(at 73.66 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7472,8 +7559,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ca1411-b5e8-4337-b9aa-b03bb114f60b")
-		(property "Reference" "#PWR0301"
-			(at 73.66 93.98 0)
+		(property "Reference" "#PWR0302"
+			(at 73.66 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7484,7 +7571,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 92.71 0)
+			(at 73.66 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7494,7 +7581,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 87.63 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7505,7 +7592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 87.63 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7516,7 +7603,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 87.63 0)
+			(at 73.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7532,7 +7619,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0301")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -7550,7 +7637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d23e8c-98fe-47e9-95b2-1d9c2ed20bb3")
-		(property "Reference" "R304"
+		(property "Reference" "R303"
 			(at 176.53 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7755,7 +7842,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R304")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -7920,7 +8007,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 157.48 134.62 0)
+		(at 157.48 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7930,8 +8017,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b66be035-6e79-4fd6-8b44-cfc45339ccbc")
-		(property "Reference" "#PWR0308"
-			(at 157.48 140.97 0)
+		(property "Reference" "#PWR0305"
+			(at 157.48 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +8029,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 139.7 0)
+			(at 157.48 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7952,7 +8039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 134.62 0)
+			(at 157.48 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7963,7 +8050,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 134.62 0)
+			(at 157.48 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7974,7 +8061,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 134.62 0)
+			(at 157.48 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7990,7 +8077,221 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0308")
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TS-1088-AR02016:TS-1088-AR02016")
+		(at 156.21 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6f99c98-f680-4ca1-a3ba-77fcdb0cb1d4")
+		(property "Reference" "S302"
+			(at 156.21 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 156.21 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TS-1088-AR02016:SW_TS-1088-AR02016"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "50mA 4mm 100MΩ 100,000 Times 12V 160gf 3mm 2mm Round Button Vertical welding SPST SMD Tactile Switches ROHS"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Xunpu"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "2.0 mm"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "Package"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=eda"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "N/A"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS-1088-AR02016/Xunpu/view-part/?ref=snap"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "TS-1088-AR02016"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Xunpu"
+			(at 156.21 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "be94946a-ad0e-4d2b-b9bb-fc29133b8fd6")
+		)
+		(pin "1"
+			(uuid "16138388-af77-45c5-8bc6-9df192fe634d")
+		)
+		(instances
+			(project "watt_city_stoplight_pcb"
+				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
+					(reference "S302")
 					(unit 1)
 				)
 			)
@@ -8230,7 +8531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a9ad73-86ec-4586-9f6b-e5a45da3dc88")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR0308"
 			(at 212.09 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -8290,7 +8591,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0303")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -8307,7 +8608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e5b23d44-ae1c-420a-ac17-4251c0ccfeee")
-		(property "Reference" "C301"
+		(property "Reference" "C303"
 			(at 80.772 77.724 0)
 			(hide yes)
 			(show_name no)
@@ -8515,185 +8816,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "C301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "bfr_actuators:Generic_Pushbutton")
-		(at 153.67 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "efc9c327-b28d-461c-bd8b-d9605c3ed11b")
-		(property "Reference" "SW303"
-			(at 153.416 113.538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW"
-			(at 153.416 116.078 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_SPST_NO_Alps_SKRK"
-			(at 153.67 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
-			(at 153.67 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer P/N" "TS-1088-AR02016 "
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XUNPU"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey P/N" "SW1021TR-ND"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Order From" "LCSC"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Created By" "Tony"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC P/N" "C720477"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Pretty Name" ""
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Basic Part" "Yes"
-			(at 153.67 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b3b04c1-5b24-4046-ae4a-67e689a71c3f")
-		)
-		(pin "2"
-			(uuid "bd3704f6-cf72-4ba3-a068-63f962c2c371")
-		)
-		(instances
-			(project "watt_city_stoplight_pcb"
-				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "SW303")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -8710,7 +8833,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f58ba859-dfbc-4364-8664-2977ba29130a")
-		(property "Reference" "#PWR0306"
+		(property "Reference" "#PWR0303"
 			(at 105.41 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8770,7 +8893,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0306")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
