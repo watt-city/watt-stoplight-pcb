@@ -4979,7 +4979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05b5854b-d619-428d-ae35-a6f0f3c96a9a")
-		(property "Reference" "D302"
+		(property "Reference" "D303"
 			(at 206.0575 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5118,7 +5118,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "D302")
+					(reference "D303")
 					(unit 1)
 				)
 			)
@@ -5135,7 +5135,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06fd0943-540a-4f15-a81c-236d74fe8eb8")
-		(property "Reference" "R306"
+		(property "Reference" "R302"
 			(at 148.844 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5340,7 +5340,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R306")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -5436,7 +5436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26058ade-3918-43d1-8e04-5a463bf5af13")
-		(property "Reference" "R304"
+		(property "Reference" "R306"
 			(at 190.5 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5641,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R304")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -5658,7 +5658,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26d3c4d7-7930-4293-b444-2a53572c1dc2")
-		(property "Reference" "R302"
+		(property "Reference" "R303"
 			(at 175.006 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5863,7 +5863,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R302")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -6325,7 +6325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3d205a85-bfca-4b74-b66e-425711fda7c1")
-		(property "Reference" "R305"
+		(property "Reference" "R304"
 			(at 191.77 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6530,7 +6530,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R305")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -6548,7 +6548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45cf929f-302c-4620-80d3-857eba5e5757")
-		(property "Reference" "S303"
+		(property "Reference" "S302"
 			(at 165.1 143.5099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6746,7 +6746,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "S303")
+					(reference "S302")
 					(unit 1)
 				)
 			)
@@ -6764,7 +6764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471fa6ad-6208-4308-9391-b9e45380e6ad")
-		(property "Reference" "#PWR0307"
+		(property "Reference" "#PWR0308"
 			(at 217.17 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6824,7 +6824,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0307")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "48886a40-b91d-4bb8-a0ee-9e87402b13b7")
-		(property "Reference" "D303"
+		(property "Reference" "D302"
 			(at 213.6775 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,7 +6980,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "D303")
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -7593,7 +7593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eabff19-01d8-4f7d-bcda-c37f9b77de20")
-		(property "Reference" "#PWR0309"
+		(property "Reference" "#PWR0307"
 			(at 214.63 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7653,7 +7653,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0309")
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)
@@ -7973,7 +7973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d23e8c-98fe-47e9-95b2-1d9c2ed20bb3")
-		(property "Reference" "R303"
+		(property "Reference" "R305"
 			(at 184.15 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8178,7 +8178,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "R303")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -8431,7 +8431,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f99c98-f680-4ca1-a3ba-77fcdb0cb1d4")
-		(property "Reference" "S302"
+		(property "Reference" "S303"
 			(at 166.37 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8627,7 +8627,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "S302")
+					(reference "S303")
 					(unit 1)
 				)
 			)
@@ -8867,7 +8867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3a9ad73-86ec-4586-9f6b-e5a45da3dc88")
-		(property "Reference" "#PWR0308"
+		(property "Reference" "#PWR0309"
 			(at 219.71 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8927,7 +8927,7 @@
 		(instances
 			(project "watt_city_stoplight_pcb"
 				(path "/b4a4f794-1678-4879-8515-a84d8e78c2b5/3dd86ff8-e3bb-420d-8a24-6450469b82c4"
-					(reference "#PWR0308")
+					(reference "#PWR0309")
 					(unit 1)
 				)
 			)

@@ -1977,7 +1977,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "USB4110-GF-A"
+		(property "Datasheet" "https://gct.co/files/specs/usb4110-spec.pdf"
 			(at 124.46 82.55 0)
 			(hide yes)
 			(show_name no)
